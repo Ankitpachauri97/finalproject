@@ -1,0 +1,182 @@
+.bck{
+    background-image: url("61.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 1000px; */
+}
+.top{
+    background: transparent;
+    /* width: 100%;
+    height: 60px; */
+    display: inline;
+    position:fixed;
+   }
+   .top> .top1{
+       padding-top: 10px;
+       background-color: black;
+       margin-left: 20px;
+       margin-top: 15px;
+       width: 62px;
+       height: 61px;
+       position: fixed;
+   }
+   .top1:hover{
+    animation: animated_div 2s ;
+   }
+   @keyframes animated_div{
+    10%{background-color: pink ;}
+    20%{background-color: rgb(255, 211, 80) ;}
+    30%{background-color: #59c3c3 ;}
+    40%{background-color: #8098a6;}
+    50%{background-color: #1c7db6;}
+    60%{background-color: pink ;}
+    70%{background-color: rgb(255, 211, 80) ;}
+    80%{background-color: #59c3c3 ;}
+    90%{background-color: #8098a6;}
+    100%{background-color: #1c7db6;}
+   }
+   .img{
+       padding-left: 5px;
+       display: inline-block;
+       vertical-align: center;
+       margin-left: 8px;
+   }
+   .top2{
+       width: 75px;
+       height: 60px;
+       text-align: center;
+       font-size: 24px;
+       padding: 15px;
+       font-weight: 600;
+       font-stretch: extra-condensed;
+       position: fixed;
+       
+       margin-left: 980px;
+       font-family: Oswald,sans-serif;
+       background: transparent;
+       z-index: 1;
+      
+       margin-top: 20px;
+       color: white;
+   }
+   .top2:hover{
+       background-color: #59c3c3;
+       color: white;
+   }
+   .top3{
+       width: 125px;
+       height: 60px;
+       text-align: center;
+       font-size: 24px;
+       padding: 15px;
+       font-weight: 600;
+       font-stretch: extra-condensed;
+       position: fixed;
+
+       margin-left: 1055px;
+       font-family: Oswald,sans-serif;
+       background: transparent;
+       z-index: 1;
+       margin-top: 20px;
+   }
+   .top3:hover{
+       background-color: #a6808c;
+       color: white;
+   }
+   .top4{
+       width: 98px;
+       height: 60px;
+       text-align: center;
+       font-size: 24px;
+       padding: 15px;
+       font-weight: 600;
+       font-stretch: extra-condensed;
+       position: fixed;
+       color: black;
+       margin-left: 1180px;
+       font-family: Oswald,sans-serif;
+       background: transparent;
+       z-index: 1;
+       margin-top: 20px;
+   }
+   .top4:hover{
+       background-color: rgb(255, 211, 80);
+       color: white;
+   }
+
+
+  p >a{
+       color: black;
+   }
+ p:hover > a{
+       color: white;
+       text-decoration: none;
+   }
+
+.subpart{
+    padding-left: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.part2{
+    display: flex;
+}
+.part2 > div{
+    flex-grow: 1;
+}
+.sub1{
+    padding-left: 100px;
+    padding-top: 150px;
+}
+.part3{
+    background: linear-gradient(180deg,rgba(0,0,0,.6),rgba(0,0,0,.6)),url("https://image.freepik.com/free-vector/template-newspaper_80590-1859.jpg");
+    background-repeat: no-repeat;
+    color: #fff;
+    background-position: 0 0,50% 50%;
+    background-size: cover;
+}
+.part4{
+    display: flex;
+}
+.part4 > div{
+    padding-left: 90px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    flex-grow: 1;
+    color: white;
+    width: 50%;
+}
+.sub2{
+    background: linear-gradient(180deg,rgba(0,0,0,.6),rgba(0,0,0,.6)),url("https://image.freepik.com/free-photo/hotel-dining-room-with-confortable-chairs_116348-106.jpg");    
+}
+.sub3{
+    background: linear-gradient(180deg,rgba(0,0,0,.6),rgba(0,0,0,.6)),url("https://image.freepik.com/free-photo/vase-plant-table-decoration-with-pillow-sofa-chair_74190-8659.jpg");
+}
+.foot{  
+    color: white; 
+    background-color: black;
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+.f1{
+    padding: 15px;
+    padding-top: 30px;
+    flex-grow: 1;
+}
+.f2{
+    padding: 15px;
+    padding-top: 30px;
+    flex-grow: 25;
+}
+.foot1{  
+    color: white; 
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid white;
+}
+.top div > p{
+    font-size: 24px;
+}

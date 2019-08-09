@@ -1,0 +1,561 @@
+   
+            @keyframes animation
+            {
+
+            }
+
+            body{
+             
+                background-size: cover;
+                /* background-color: yellowgreen; */
+                background-repeat: no-repeat;
+                overflow: hidden;
+        
+            }
+
+            .qwerty{
+                background-image: url("green.jpg");
+            }
+
+
+
+
+            .top{
+            background: transparent;
+            /* width: 100%;
+            height: 60px; */
+            display: inline;
+            position:fixed;
+           }
+           .top> .top1{
+               padding-top: 10px;
+               background-color: black;
+               margin-left: 20px;
+               margin-top: 15px;
+               width: 62px;
+               height: 61px;
+               position: fixed;
+           }
+           .top1:hover{
+            animation: animated_div 2s ;
+           }
+           @keyframes animated_div{
+            10%{background-color: pink ;}
+            20%{background-color: rgb(255, 211, 80) ;}
+            30%{background-color: #59c3c3 ;}
+            40%{background-color: #8098a6;}
+            50%{background-color: #1c7db6;}
+            60%{background-color: pink ;}
+            70%{background-color: rgb(255, 211, 80) ;}
+            80%{background-color: #59c3c3 ;}
+            90%{background-color: #8098a6;}
+            100%{background-color: #1c7db6;}
+           }
+           .img{
+               padding-left: 5px;
+               display: inline-block;
+               vertical-align: center;
+               margin-left: 8px;
+           }
+           .top2{
+               width: 75px;
+               height: 60px;
+               text-align: center;
+               font-size: 24px;
+               padding: 15px;
+               font-weight: 600;
+               font-stretch: extra-condensed;
+               position: fixed;
+               
+               margin-left: 980px;
+               font-family: Oswald,sans-serif;
+               background: transparent;
+               z-index: 1;
+              
+               margin-top: 20px;
+               color: white;
+           }
+           .top2:hover{
+               background-color: #59c3c3;
+               color: white;
+           }
+           .top3{
+               width: 125px;
+               height: 60px;
+               text-align: center;
+               font-size: 24px;
+               padding: 15px;
+               font-weight: 600;
+               font-stretch: extra-condensed;
+               position: fixed;
+
+               margin-left: 1055px;
+               font-family: Oswald,sans-serif;
+               background: transparent;
+               z-index: 1;
+               margin-top: 20px;
+           }
+           .top3:hover{
+               background-color: #a6808c;
+               color: white;
+           }
+           .top4{
+               width: 98px;
+               height: 60px;
+               text-align: center;
+               font-size: 24px;
+               padding: 15px;
+               font-weight: 600;
+               font-stretch: extra-condensed;
+               position: fixed;
+               color: black;
+               margin-left: 1180px;
+               font-family: Oswald,sans-serif;
+               background: transparent;
+               z-index: 1;
+               margin-top: 20px;
+           }
+           .top4:hover{
+               background-color: rgb(255, 211, 80);
+               color: white;
+           }
+
+
+          p >a{
+               color: black;
+           }
+         p:hover > a{
+               color: white;
+               text-decoration: none;
+           }
+
+
+
+
+            .container1{
+                display: flex;
+                margin: -70vh;
+                width: 2850px;
+                height:2850px;
+                animation-iteration-count: infinite;
+                animation-name: example1;
+                transition-delay: 3000s;
+                animation-duration: 12s;
+                overflow: hidden;
+                transition-timing-function: ease;
+                background: transparent;
+            }
+                
+
+
+
+                @keyframes example1{ 
+                        0%   {margin-left: -10vw;margin-top: -10vh;}
+                
+                 50%  {margin-left: -60vw;margin-top: -60vh;}
+
+                 100%  {margin-left: -10vw;margin-top: -10vh;}
+            }
+                
+             
+
+               
+            
+                       .onepiece {
+                width: 420px;
+                height:1220px;
+           
+                margin: 5px;
+                animation-iteration-count: infinite;
+                animation-name: example;
+                animation-duration: 1.9s;
+                transition-timing-function: ease;
+                
+                
+
+            }
+
+            @keyframes example{ 
+                0%   {margin-top: -60px}
+                 5%  { margin-left: -160px}
+                 10%  { margin-top: -260px}
+                 15%  { margin-top: -360px}
+                 20%  { margin-top: -465px}
+                 25%  { margin-top: -560px}
+                 30%  { margin-top: -660px}
+                 35%  { margin-top: -770px}
+                 45%  { margin-top: -885px}
+                 50%  { margin-top: -990px}
+
+                 55%  { margin-top: -880px}
+                 60%  { margin-top: -770px}
+                 65%  { margin-top: -665px}
+                 70%  { margin-top: -550px}
+                 75%  { margin-top: -440px}
+                 80%  { margin-top: -335px}
+                 85%  { margin-top: -220px}
+                 90%  { margin-top: -115px}
+                 95%  { margin-top: -80px}
+                 
+                 100%  { margin-top: -60px}
+            }
+              
+            
+
+
+            .twopiece{
+                width: 420px;
+                height:1220px;
+            
+                margin: 5px;
+            animation-iteration-count: infinite;
+                animation-name: example;
+                animation-duration: 8s;
+                transition-timing-function: ease;
+            }
+
+  
+  @keyframes example{ 
+    0%   {margin-top: 0px}
+                 5%  { margin-top: -5vh}
+                 /* 10%  { margin-top: -15px}
+                 15%  { margin-top: -20px}
+                 20%  { margin-top: -25px}
+                 25%  { margin-top: -30px}
+                 30%  { margin-top: -35px}
+                 35%  { margin-top: -40px}
+                 45%  { margin-top: -45px}
+                 50%  { margin-top: -50px} */
+
+                 55%  { margin-top: -60vh}
+                 /* 60%  { margin-top: -50px}
+                 65%  { margin-top: -45px}
+                 70%  { margin-top: -40px}
+                 75%  { margin-top: -30px}
+                 80%  { margin-top: -25px}
+                 85%  { margin-top: -20px}
+                 90%  { margin-top: -15px}
+                 95%  { margin-top: -10px}
+                  */
+                 100%  { margin-top: -5vh}
+           
+  }
+
+            
+            .threepiece{
+                width: 420px;
+                height:1220px;
+               
+    
+                margin: 5px;
+                animation-iteration-count: infinite;
+                animation-name: example;
+                animation-duration: 2s;
+
+            }
+            
+            @keyframes example{ 
+                0%   {margin-top: 0px}
+                 5%  { margin-top: -5px}
+                 10%  { margin-top: -10px}
+                 15%  { margin-top: -20px}
+                 20%  { margin-top: -25px}
+                 25%  { margin-top: -30px}
+                 30%  { margin-top: -35px}
+                 35%  { margin-top: -40px}
+                 45%  { margin-top: -45px}
+                 50%  { margin-top: -50px}
+
+                 55%  { margin-top: -60px}
+                 60%  { margin-top: -50px}
+                 65%  { margin-top: -45px}
+                 70%  { margin-top: -40px}
+                 75%  { margin-top: -30px}
+                 80%  { margin-top: -25px}
+                 85%  { margin-top: -20px}
+                 90%  { margin-top: -15px}
+                 95%  { margin-top: -10px}
+                 
+                 100%  { margin-top: 0px}}
+            
+            .fourpiece{
+                width: 420px;
+                height:1220px;
+          
+                margin: 5px;
+                animation-iteration-count: infinite;
+                animation-name: example;
+                animation-duration: 10s;
+
+            }
+
+            
+            @keyframes example{ 
+                0%   {margin-top: 0px}
+                 5%  { margin-top: -5px}
+                 10%  { margin-top: -10px}
+                 15%  { margin-top: -20px}
+                 20%  { margin-top: -25px}
+                 25%  { margin-top: -30px}
+                 30%  { margin-top: -35px}
+                 35%  { margin-top: -40px}
+                 45%  { margin-top: -45px}
+                 50%  { margin-top: -50px}
+
+                 55%  { margin-top: -60px}
+                 60%  { margin-top: -50px}
+                 65%  { margin-top: -45px}
+                 70%  { margin-top: -40px}
+                 75%  { margin-top: -30px}
+                 80%  { margin-top: -25px}
+                 85%  { margin-top: -20px}
+                 90%  { margin-top: -15px}
+                 95%  { margin-top: -10px}
+                 
+                 100%  { margin-top: 0px}
+            }
+            /* media (min-width: 3000px)
+.container {
+    max-width: 4000px; */
+
+            /* --------------------small pieces ------------------------------*/
+            #one{
+                border-radius: 120px;
+                height: 400px;
+                width: 100%;
+                   border: 2px solid rgb(221, 221, 221);
+               
+                margin: 5px;
+            }
+
+            #two{
+                border-radius: 180px;
+                height: 300px;
+                width: 100%;
+                   border: 2px solid rgb(221, 221, 221);
+           
+                margin: 5px;
+            }
+
+
+            #three{
+                border-radius: 120px;
+                height: 550px;
+                width: 100%;
+                   border: 2px solid rgb(221, 221, 221);
+            
+                margin: 5px;
+            }
+
+
+            #four{
+                border-radius: 120px;
+                height: 600px;
+                width: 100%;
+                   border: 2px solid rgb(221, 221, 221);
+         
+                margin: 5px;
+            }
+
+            #five{
+                border-radius: 100px;
+                height: 800px;
+                width: 100%;
+                   border: 2px solid rgb(221, 221, 221);
+          
+                margin: 5px;
+            }
+            
+
+            #six{
+                border-radius: 100px;
+                height: 500px;
+                width: 100%;
+                border: 2px solid rgb(221, 221, 221);
+           
+                margin: 5px;
+            }
+            
+
+            #seven{
+                border-radius: 100px;
+                height: 250px;
+                width: 100%;
+                border: 2px solid rgb(221, 221, 221);
+         
+                margin: 5px;
+                
+            }
+
+
+            .main1:hover{
+                transform: scale(1.2);
+                background-image: url("11.jpg");
+             
+                
+            }
+            
+            .main2:hover{
+                transform: scale(1.2);
+                background-image: url("111.jpg");
+            }
+            
+            .main3:hover{
+                transform: scale(1.2);
+                /* body {background-image: url("1111.jpg");} */
+            }
+            
+            .main4:hover{
+                transform: scale(1.2);
+                background-image: url("thumb-1920-277450.jpg");
+            }
+
+
+
+
+            .nain1 > div{
+                align-self: center;
+            }
+
+            .foot{
+            position: fixed;
+            color: black; 
+            background:transparent;
+            bottom: 0px;
+            left: 0px;
+            width: 20%;
+            display: flex;
+            flex-direction: row;
+            margin: 8px 8px 28px;
+            flex-grow: 1;
+            height: 90px;
+            margin-bottom: 0px;
+            margin-left: 10px;
+            padding-top: 10px;
+        }
+        .foot > div{
+            padding: 15px;
+            background:transparent;
+        }
+
+            /* .halfpart{
+                width: 100vw;
+                height: 100vh;
+                
+                float: left;
+                position: absolute;
+                background: black;
+                opacity: .2;
+            }
+            .half > div{
+                width: 50vw;
+                height:100vh;
+                background: transparent;
+            } */
+            .main1 > div{
+                position: relative;
+                display: none;
+                font-size: 40px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                margin-top: 150px;
+                
+                position: absolute;
+                margin-left: 150px;
+            }
+
+            .main1:hover > div{
+                display: block;
+                font-size: 40px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                margin-top: 150px;
+                position: absolute;
+                margin-left: 150px;
+                
+                /* display: block; */
+                transform: scale(1.3)
+                
+            }
+            .main2 > div{
+                position: relative;
+                display: none;
+                font-size: 40px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                margin-top: 210px;
+                
+                position: absolute;
+                margin-left: 150px;
+            }
+
+            .main2:hover > div{
+                display: block;
+                font-size: 40px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                margin-top: 210px;
+                position: absolute;
+                margin-left: 150px;
+                
+                /* display: block; */
+                transform: scale(1.3)
+                
+            }
+            .main3 > div{
+                position: relative;
+                display: none;
+                font-size: 40px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                margin-top: 170px;
+                
+                position: absolute;
+                margin-left: 150px;
+                transition-delay: .7s;
+                transform: translateY(60px);
+            }
+
+            .main3:hover > div{
+                display: block;
+                font-size: 40px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                margin-top: 150px;
+                position: absolute;
+                margin-left: 150px;
+                
+                /* display: block; */
+                transform: scale(1.3)
+                
+            }
+            .main4 > div{
+                position: relative;
+                display: none;
+                font-size: 40px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                margin-top: 150px;
+                
+                position: absolute;
+                margin-left: 150px;
+            }
+
+            .main4:hover > div{
+                display: block;
+                font-size: 40px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                margin-top: 150px;
+                position: absolute;
+                margin-left: 150px;
+                letter-spacing: .8;
+                
+                /* display: block; */
+                transform: scale(1.3)
+
+
+            }
+            
+            a {
+                    color:black;                
+                }
+
+                a:hover{
+                    color:black;  
+                    font-style: normal;
+                    text-decoration: none;
+                }
+                

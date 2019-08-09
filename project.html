@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>ohi</title>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+         
+       <style>
+           .top{
+            background: transparent;
+            width: 100%;
+            height: 60px;
+            display: inline;
+           }
+           .top> .top1{
+               padding-top: 10px;
+               background-color: black;
+               margin-left: 20px;
+               margin-top: 15px;
+               width: 62px;
+               height: 61px;
+               position: fixed;
+           }
+           .top1:hover{
+            animation: animated_div 2s ;
+            animation-iteration-count: infinite;
+           }
+           @keyframes animated_div{
+            10%{background-color: pink ;}
+            20%{background-color: rgb(255, 211, 80) ;}
+            30%{background-color: #59c3c3 ;}
+            40%{background-color: #8098a6;}
+            50%{background-color: #1c7db6;}
+            60%{background-color: pink ;}
+            70%{background-color: rgb(255, 211, 80) ;}
+            80%{background-color: #59c3c3 ;}
+            90%{background-color: #8098a6;}
+            100%{background-color: #1c7db6;}
+           }
+           .img{
+               padding-left: 5px;
+               display: inline-block;
+               vertical-align: center;
+               margin-left: 8px;
+           }
+           .top2{
+               width: 75px;
+               height: 60px;
+               text-align: center;
+               font-size: 24px;
+               padding: 15px;
+               font-weight: 600;
+               font-stretch: extra-condensed;
+               position: fixed;
+               margin-left: 980px;
+               font-family: Oswald,sans-serif;
+               background: transparent;
+               z-index: 1;
+            text-decoration: none;
+                background-color: #59c3c3;
+               margin-top: 20px;
+               color: white;
+               
+           }
+           .top2 a{
+       color: white;
+   }
+
+           a{
+               color: black;
+               text-decoration: none;
+           }
+           a > p{
+               color: white;
+               text-decoration: none;
+           }
+           a:hover{
+               color: white;
+           }
+
+           
+           a:hover{
+               color: white;
+               text-decoration: none;
+           }
+           .top2:hover{
+               width: 75px;
+               height: 60px;
+               text-align: center;
+               font-size: 24px;
+               padding: 15px;
+               font-weight: 600;
+               font-stretch: extra-condensed;
+               position: fixed;
+
+               margin-left: 980px;
+               font-family: Oswald,sans-serif;
+               background: transparent;
+               z-index: 1;
+               background-color: #59c3c3;
+               margin-top: 20px;
+               color: white;
+               
+           }
+           .top3{
+               width: 125px;
+               height: 60px;
+               text-align: center;
+               font-size: 24px;
+               padding: 15px;
+               font-weight: 600;
+               font-stretch: extra-condensed;
+               position: fixed;
+               color: black;
+               margin-left: 1055px;
+               font-family: Oswald,sans-serif;
+               background: transparent;
+               z-index: 1;
+               margin-top: 20px;
+           }
+           .top3:hover{
+               background-color: #a6808c;
+           }
+           .top4{
+               width: 98px;
+               height: 60px;
+               text-align: center;
+               font-size: 24px;
+               padding: 15px;
+               font-weight: 600;
+               font-stretch: extra-condensed;
+               position: fixed;
+               color: black;
+               margin-left: 1180px;
+               font-family: Oswald,sans-serif;
+               background: transparent;
+               z-index: 1;
+               margin-top: 20px;
+           }
+           .top4:hover{
+               background-color: rgb(255, 211, 80);
+           }
+        .customDiv1{
+            position: fixed;
+            margin-top: -15px;
+            height: 700px;
+            overflow: hidden;
+            z-index: -1;
+            opacity: 1;
+            animation: fadeIn 2s ease;
+        }   
+        @keyframes fadeIn{
+                0%{opacity: 0; }
+                100%{opacity: 1;}
+                    }
+        .customDiv{
+            margin-top: 250px;
+        }   
+        .moving{
+            animation: 0.7s ease-out   slideInFromLeft;
+        }
+        @keyframes slideInFromLeft{
+            0% {transform: translateX(-100%);}
+            100% {transform: translateX(0);}
+        }
+        hr.new{
+            margin-top: 50px;
+            width: 15%;
+            border: 3px solid black;
+            margin-left: 0px;
+        }
+        .foot{
+            position: fixed;
+            color: black; 
+            background-color: white;
+            bottom: 0px;
+            left: 0px;
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+            margin: 8px 8px 28px;
+            flex-grow: 1;
+            height: 90px;
+            margin-bottom: 0px;
+            margin-left: 10px;
+            padding-top: 10px;
+        }
+        .foot > div{
+            padding: 15px;
+        }
+        
+        
+       </style>
+
+
+<link rel="icon" href="Picture1.png" >
+    </head>
+    <body>
+        <div class="top">
+            <div class="top1">
+         <a href="index.html"> <img src="logomain.png" class="img" width="41px" height="40px"></a>
+        </div>
+        <div class="top2">
+                <p><a href="project.html">OHI</a></p>
+                 </div>
+                 <div class="top3">
+                     <p><a href="whowith.html">WHOWITH</a></p>
+                 </div>
+                 <div class="top4">
+                        <p><a href="work.html">WORK</a></p>
+                    </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <div class="customDiv">
+
+                              <div class="moving" onload="moving()">
+                                <p style="font-size: 4vw; color: black; font-weight: bold; font-family: Oswald,sans-serif;">OHI</p>
+                                <hr class="new">
+                  <p style="font-size: 2vw; color: black ; font-family: Montserrat,sans-serif;">I'm Jonathan Schoeck</p>              
+              <p style="font-size: 1.2vw; letter-spacing: 0.1vw; color: gray ; max-width: 440px ; font-family: Montserrat,sans-serif;">My creative process reflects my interest in how people 
+                                   experience the intersection of art and technology. How it affects
+                                    communication, and the progress of our industry. While I've worked in just 
+                                    about every discipline across the ad world, most of my big ideas live
+                                     in the digital world, with a solid understanding of relevant design systems,
+                                      user behavior, and support interfaces. I thrive on new technology, but have 
+                                      a lot of nostalgia for antiquated tech as well. I appreciate unexpected uses 
+                                      of APIs and data, just as much as I appreciate an early 60's BMW Airhead that's 
+                                      in disrepair. Like most makers, I'm always making. I do a lot of it in my role
+                                       with Boston based agency CTP, as Digital Associate Creative Director.
+                                    I started my creative career client side, first at IBM, before transitioning to 
+                                    advertising and marketing. In past roles at Digitas and MMB, I was involved in video
+                                     and print campaigns, including branding, print, out of home, video, animation, 
+                                     banners, social, and ambient media. But, I have spent the last few years using my 
+                                     experiences with IBM to focus my digital expertise as it relates to marketing 
+                                     communications.
+                                    I’ve worked with dozens of brands across a broad range of industries,
+                                     supporting teams across multiple agencies, and have gained regional and global
+                                      recognition for our efforts. We've earned <strong style="color: black;">AdClub Hatch Awards,
+                                         MITX Awards,</strong>  
+                                      shout-outs in online publications for our work, and a nomination in
+                                       the <strong style="color: black;"> Webby Awards.</strong> </p>
+                                    </div>
+                                       <div class="foot">
+                                          <div>
+                                              <a href="https://dribbble.com/ladybugonarainbow" target="_blank">
+                                            <img src="dribbble.png" width="114px" height="28px"></a>
+                                        </div>
+                                          <div>
+                                                <a href="https://www.behance.net/ladybugonarainbow" target="_blank">
+                                              <img src="behance.png" width="120px" height="28px"></a>
+                                            </div>
+                                          <div>
+                                                <a href="https://www.linkedin.com/in/jonathanschoeck/" target="_blank">
+                                              <img src="linkedin.png" width="30px" height="28px"></a>
+                                            </div>
+                                    </div>
+                            </div>
+                        </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <div class="customDiv1">
+                        <img src="ohiman.jpg" width="650px" height="650px">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div style="margin-top: 400px;"></div>
+       
+    </body>
+</html>
